@@ -26,7 +26,7 @@ else
 }*/
 
 //Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
-Console.WriteLine("Введите первое число:");
+/*Console.WriteLine("Введите первое число:");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число:");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
@@ -48,6 +48,20 @@ else
 {
     max = thirdNumber;
     Console.WriteLine("Максимальное число из трех:" + thirdNumber);    
+}*/
+
+//Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным
+Console.WriteLine("Введите число:");
+int number = Convert.ToInt32(Console.ReadLine());
+
+
+if (number%2 == 0)
+{
+    Console.WriteLine("Число " + number + " является четным");
+}
+else 
+{
+    Console.WriteLine("Число " + number + " не является четным");
 }
 
 
